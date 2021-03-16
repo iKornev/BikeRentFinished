@@ -1,0 +1,61 @@
+/* Variables */
+:root {
+    --border-color: #F0F0F0;
+    --border-radius: 5px;
+    --base-height: 45px;
+}
+
+/* General */
+html,
+body,
+#app,
+.container {
+    height: 100%;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+/* Buttons */
+button {
+    color: #FFF;
+    min-height: var(--base-height);
+    min-width: 130px;
+    border-radius: var(--border-radius);
+    border: unset;
+}
+
+.button-primary {
+    background-color: #3750C7;
+}
+
+.button-accent {
+    background-color: #26BF94;
+}
+
+.button-warn {
+    background-color: #F23545;
+}
+
+/* Controls */
+input,
+select {
+    height: var(--base-height);
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius);
+}
+
+/* Stripes */
+.stripe {
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius);
+}
+
+.background-dark {
+    background-color: #E8E9EE;
+}
+
+.background-light {
+    background-color: #FFF;
+}
